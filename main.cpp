@@ -16,7 +16,7 @@ int main() {
 	ofstream file1 ("Eingabe.txt");
 	
 	for (int n = 0; n < 3; n++) {
-		// Hier für die Verienfachung wird for Schleife benutzt aber das kann mit der While Schleife implementiert werden.
+		// Hier fÃ¼r die Verienfachung wird for Schleife benutzt aber das kann mit der While Schleife auch implementiert werden.
 		// Eingaben werden nacheinander erfolgt 
 			cin >> array_name[n]>> array_age[n];
 		// die Arrays werden in file1 gespeichert
